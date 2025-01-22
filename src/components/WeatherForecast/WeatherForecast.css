@@ -1,0 +1,25 @@
+/* src/components/WeatherForecast/WeatherForecast.css */
+section {
+    display: flex;
+    flex-wrap: wrap; /* To handle multiple forecasts in smaller screen sizes */
+  }
+  
+  section .weather {
+    border: 1px solid #ccc;
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    margin: 10px; /* Space between the forecast items */
+    border-radius: 8px;
+  }
+  
+  .weather span {
+    font-weight: bold;
+  }
+  
+  .weather img {
+    width: 50px;  /* Adjust the icon size */
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
